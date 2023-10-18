@@ -12,7 +12,6 @@ resource "aws_dynamodb_table" "dynamodb_table"{
 
   tags = {
     Name = var.dynamodb_table_name
-    Environment = var.env_name
   }
 
 }
